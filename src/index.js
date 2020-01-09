@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import Note from "./components/Note";
 
 // This is a comment for testing new keeper-john branch
+// Second comment added by john
+
 ReactDOM.render(
   <div>
     <Header />
