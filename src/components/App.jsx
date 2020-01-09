@@ -1,21 +1,17 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import Note from "./Note";
-import notes from "../notes";
+import Home from "./Home";
+import Register from "./RegisterLogin";
+
+let isLogin = true;
+let userIsRegistered = true;
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      {notes.map(noteItem => 
-          <Note
-            key={noteItem.key}
-            title={noteItem.title}
-            content={noteItem.content}
-          />
-      )}
-      <Footer />
+  return isLogin ? (
+    <Home />
+  ) : (
+    <div className="container">
+      <h1>Welcome to Keeper App</h1>
+      <Register isRegistered={userIsRegistered} />
     </div>
   );
 };
