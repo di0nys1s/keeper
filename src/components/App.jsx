@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./Home";
-import Register from "./RegisterLogin";
+import RegisterLogin from "./RegisterLogin";
 
 let isLogin = true;
 let userIsRegistered = true;
@@ -11,7 +11,7 @@ const App = () => {
   ) : (
     <div className="container">
       <h1>Welcome to Keeper App</h1>
-      <Register isRegistered={userIsRegistered} />
+      <RegisterLogin isRegistered={userIsRegistered} />
     </div>
   );
 };

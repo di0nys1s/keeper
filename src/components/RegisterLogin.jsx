@@ -2,7 +2,7 @@ import React from "react";
 import Input from "./Input.jsx";
 import "../login.css";
 
-const Register = props => {
+const RegisterLogin = props => {
   return (
     <form className="form">
       <Input type="text" placeholder="Username" />
@@ -17,4 +17,4 @@ const Register = props => {
   );
 };
 
-export default Register;
+export default RegisterLogin;

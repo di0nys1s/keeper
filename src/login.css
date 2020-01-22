@@ -41,18 +41,16 @@ form input {
     display: block;
     text-align: center;
     font-size: 18px;
-    color: white;
     font-weight: 300;
 }
 
 form button {
     appearance: none;
-    background-color: #eee;
-    background: white;
-    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: #f5ba13;
+    border: 1.5px solid rgba(252, 252, 252, 0.4);
     padding: 10px 15px;
-    color: #f5ba13;
-    border-radius: 3px;
+    color: #fff;
+    border-radius: 5px;
     width: 282px;
     font-size: 20px;
 }
