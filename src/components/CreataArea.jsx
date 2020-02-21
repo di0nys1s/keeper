@@ -55,7 +55,7 @@ function CreateArea(props) {
           className="form-area"
           name="content"
           placeholder="Take a note..."
-          rows={isExpanded ? 3 : 1}
+          rows={isExpanded ? 14 : 1}
           required
         />
 
