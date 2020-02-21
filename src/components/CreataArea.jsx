@@ -57,7 +57,6 @@ function CreateArea(props) {
           placeholder="Take a note..."
           rows={isExpanded ? 3 : 1}
           required
-          oninvalid="this.setCustomValidity('Username cannot be empty.')"
         />
 
         <Zoom in={isExpanded}>
